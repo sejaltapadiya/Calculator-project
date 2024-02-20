@@ -39,7 +39,7 @@ pipeline {
                 script{
                     docker.withRegistry('', 'DockerHubCred') {
                     sh 'docker tag scientific-calculator sejal28/scientific-calculator:latest'
-                    sh 'docker push /scientific-calculator'
+                    sh 'docker push sejal28/scientific-calculator'
                     }
                  }
             }
@@ -58,3 +58,4 @@ pipeline {
 
     }
 }
+git
