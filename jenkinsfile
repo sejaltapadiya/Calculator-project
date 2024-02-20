@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script{   
                 // Remove specific Docker containers
-                sh 'docker rm -f scientific-calculator'
+                sh 'docker rm -f scientific'
                 }
             }
         }
