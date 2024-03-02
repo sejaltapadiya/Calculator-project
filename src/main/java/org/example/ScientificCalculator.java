@@ -83,7 +83,6 @@ public class ScientificCalculator {
         double result = Math.log(x);
         System.out.println("Natural Logarithm of " + x + " is: " + result);
     }
-
     private static void powerOperation(Scanner scanner) {
         System.out.print("Enter the base (x): ");
         double x = scanner.nextDouble();
