@@ -19,4 +19,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name scientifiC sejal28/scientific-calculator
+      shell: docker run -it -d --name scientific sejal28/scientific-calculator
