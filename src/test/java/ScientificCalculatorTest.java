@@ -2,7 +2,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ScientificCalculatorTest {
-/*Hello*/
+
     @Test
     public void testSquareRootOperation() {
         assertEquals(2.0, Math.sqrt(4), 0.0001); // Square root of 4 should be 2
